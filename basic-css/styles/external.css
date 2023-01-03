@@ -1,0 +1,38 @@
+.header{
+    height: 200px;
+    /* background-image: url('screenshot.png'); */
+    /* background-image: url('../ship'); */
+    background-image: url('../screenshot.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: top right; */
+    color: white;
+    background-color: grey;
+    background-blend-mode: difference;
+}
+h3{
+    color: magenta;
+    text-decoration: overline wavy red;
+}
+p{
+    color: blueviolet;
+}
+.page-title{
+    font-weight: 900;
+    font-family: 'Lucida Sans';
+}
+a{
+    text-decoration: none;
+}
+span{
+    border: 1px solid purple;
+    height: 200px;
+    width: 100px;
+    margin: 50px;
+    /* display: none; */
+}
+.blog{
+    background-color: peru;
+    box-shadow: 10px 10px 10px grey;
+    margin-bottom: 100px;
+}
