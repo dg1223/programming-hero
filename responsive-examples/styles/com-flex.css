@@ -3,7 +3,7 @@ img{
     width: 100%;
 }
 .row{
-    height: 400px;
+    /* height: 400px; */
     margin: 5px;
 }
 .second-row, .third-row {
@@ -28,4 +28,19 @@ img{
 }
 .third-row > div{
     flex: 1;
+}
+@media screen and (max-width: 576px) {
+    .second-row, .third-row {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .third-row-second-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 577) {
+    .row{
+        height: 400px;
+    }
 }
