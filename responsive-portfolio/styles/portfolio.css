@@ -295,11 +295,7 @@ hr{
         padding: 20px;
         gap: 10px;
     }
-    .contact{
+    .contact .banner{
         flex-direction: column;
     }
-}
-
-.hide{
-    display: none;
 }
